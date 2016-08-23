@@ -1,0 +1,55 @@
+.left { 
+	float: left; 
+}
+
+body {
+	padding:0;
+}
+
+#container {
+	width:800px;
+	margin: 70px auto;
+}
+
+#day-calander {
+	width:600px;
+	height:720px;
+	padding: 0 10px; /*side padding of 10px added to the width of 600. Total width will be 610, as wanted*/
+	margin:0 auto;  /* horizontal centering */
+	background:#ECECEC;
+	position:relative;
+	overflow:hidden;
+}
+
+.event {
+	background:#fff;
+	color:#4B6EA8;
+	border:1px solid #ccc;
+	border-left:4px solid #4B6EA8;
+	position:absolute;
+	margin:0 10px; /*margin between events */
+	font-weight:bold;
+}
+
+#times {
+	height:720px;
+	margin-right:10px;
+	font-family:arial;
+	margin-top:-3px;
+}
+
+#times .slot {
+	height:30px;
+	font-weight:bold;
+	text-align:right;
+	line-height:0;
+}
+
+#times .slot span {
+	font-size:12px;
+	color:#999;
+	padding:2px 0;
+}
+  
+  
+  
